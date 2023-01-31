@@ -13,6 +13,9 @@
 		AACE580C29884F91002A2C5C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AACE580A29884F91002A2C5C /* Main.storyboard */; };
 		AACE580E29884F93002A2C5C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AACE580D29884F93002A2C5C /* Assets.xcassets */; };
 		AACE581129884F93002A2C5C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AACE580F29884F93002A2C5C /* LaunchScreen.storyboard */; };
+		AACE581C2988553C002A2C5C /* us-state-capitals.json in Resources */ = {isa = PBXBuildFile; fileRef = AACE581B2988553C002A2C5C /* us-state-capitals.json */; };
+		AACE581E29887F02002A2C5C /* State.swift in Sources */ = {isa = PBXBuildFile; fileRef = AACE581D29887F02002A2C5C /* State.swift */; };
+		AACE58202988944C002A2C5C /* Example.swift in Sources */ = {isa = PBXBuildFile; fileRef = AACE581F2988944C002A2C5C /* Example.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		AACE580D29884F93002A2C5C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AACE581029884F93002A2C5C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AACE581229884F93002A2C5C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AACE581B2988553C002A2C5C /* us-state-capitals.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "us-state-capitals.json"; sourceTree = "<group>"; };
+		AACE581D29887F02002A2C5C /* State.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = State.swift; sourceTree = "<group>"; };
+		AACE581F2988944C002A2C5C /* Example.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Example.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,13 +64,40 @@
 			children = (
 				AACE580429884F91002A2C5C /* AppDelegate.swift */,
 				AACE580629884F91002A2C5C /* SceneDelegate.swift */,
-				AACE580829884F91002A2C5C /* ViewController.swift */,
-				AACE580A29884F91002A2C5C /* Main.storyboard */,
+				AACE581A2988518D002A2C5C /* Model */,
+				AACE58192988502B002A2C5C /* Controller */,
+				AACE581829885020002A2C5C /* View */,
 				AACE580D29884F93002A2C5C /* Assets.xcassets */,
 				AACE580F29884F93002A2C5C /* LaunchScreen.storyboard */,
 				AACE581229884F93002A2C5C /* Info.plist */,
 			);
 			path = "Proto File RW plus Firestore";
+			sourceTree = "<group>";
+		};
+		AACE581829885020002A2C5C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				AACE580A29884F91002A2C5C /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		AACE58192988502B002A2C5C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				AACE580829884F91002A2C5C /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		AACE581A2988518D002A2C5C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AACE581B2988553C002A2C5C /* us-state-capitals.json */,
+				AACE581D29887F02002A2C5C /* State.swift */,
+				AACE581F2988944C002A2C5C /* Example.swift */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,6 +160,7 @@
 			files = (
 				AACE581129884F93002A2C5C /* LaunchScreen.storyboard in Resources */,
 				AACE580E29884F93002A2C5C /* Assets.xcassets in Resources */,
+				AACE581C2988553C002A2C5C /* us-state-capitals.json in Resources */,
 				AACE580C29884F91002A2C5C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -140,7 +174,9 @@
 			files = (
 				AACE580929884F91002A2C5C /* ViewController.swift in Sources */,
 				AACE580529884F91002A2C5C /* AppDelegate.swift in Sources */,
+				AACE581E29887F02002A2C5C /* State.swift in Sources */,
 				AACE580729884F91002A2C5C /* SceneDelegate.swift in Sources */,
+				AACE58202988944C002A2C5C /* Example.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
