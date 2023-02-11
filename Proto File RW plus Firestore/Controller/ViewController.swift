@@ -24,7 +24,7 @@ class ViewController: UIViewController {
     @IBAction func readButtonPressed(_ sender: UIButton) {
         print("Read btn pressed")
         
-        readJSONFileFromAppSupportFolder()
+        readJSONFileFromProjectFolder()
         
     }
     
@@ -102,8 +102,8 @@ class ViewController: UIViewController {
             // Decode JSON in Data object into decodable custom type
             
             let decoder = JSONDecoder()
-            let usaData = try decoder.decode([State].self, from: data)
-            debugPrint(usaData)
+            let quizData = try decoder.decode(Quiz.self, from: data)
+            debugPrint(quizData)
             
         } catch {
             print("Error reading file - \(error)")

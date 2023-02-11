@@ -1,297 +1,480 @@
-[
-  {
-    "state": "Alabama",
-    "abbreviation": "AL",
-    "capital": "Montgomery"
-  },
-  {
-    "state": "Alaska",
-    "abbreviation": "AK",
-    "capital": "Juneau"
-  },
-  {
-    "state": "American Samoa",
-    "abbreviation": "AS",
-    "capital": "Pago Pago"
-  },
-  {
-    "state": "Arizona",
-    "abbreviation": "AZ",
-    "capital": "Phoenix"
-  },
-  {
-    "state": "Arkansas",
-    "abbreviation": "AR",
-    "capital": "Little Rock"
-  },
-  {
-    "state": "California",
-    "abbreviation": "CA",
-    "capital": "Sacramento"
-  },
-  {
-    "state": "Colorado",
-    "abbreviation": "CO",
-    "capital": "Denver"
-  },
-  {
-    "state": "Connecticut",
-    "abbreviation": "CT",
-    "capital": "Hartford"
-  },
-  {
-    "state": "Delaware",
-    "abbreviation": "DE",
-    "capital": "Dover"
-  },
-  {
-    "state": "District of Columbia",
-    "abbreviation": "DC",
-    "capital": ""
-  },
-  {
-    "state": "Federated States of Micronesia",
-    "abbreviation": "FM",
-    "capital": "Palikir"
-  },
-  {
-    "state": "Florida",
-    "abbreviation": "FL",
-    "capital": "Tallahassee"
-  },
-  {
-    "state": "Georgia",
-    "abbreviation": "GA",
-    "capital": "Atlanta"
-  },
-  {
-    "state": "Guam",
-    "abbreviation": "GU",
-    "capital": "Hagåtña"
-  },
-  {
-    "state": "Hawaii",
-    "abbreviation": "HI",
-    "capital": "Honolulu"
-  },
-  {
-    "state": "Idaho",
-    "abbreviation": "ID",
-    "capital": "Boise"
-  },
-  {
-    "state": "Illinois",
-    "abbreviation": "IL",
-    "capital": "Springfield"
-  },
-  {
-    "state": "Indiana",
-    "abbreviation": "IN",
-    "capital": "Indianapolis"
-  },
-  {
-    "state": "Iowa",
-    "abbreviation": "IA",
-    "capital": "Des Moines"
-  },
-  {
-    "state": "Kansas",
-    "abbreviation": "KS",
-    "capital": "Topeka"
-  },
-  {
-    "state": "Kentucky",
-    "abbreviation": "KY",
-    "capital": "Frankfort"
-  },
-  {
-    "state": "Louisiana",
-    "abbreviation": "LA",
-    "capital": "Baton Rouge"
-  },
-  {
-    "state": "Maine",
-    "abbreviation": "ME",
-    "capital": "Augusta"
-  },
-  {
-    "state": "Marshall Islands",
-    "abbreviation": "MH",
-    "capital": "Majuro"
-  },
-  {
-    "state": "Maryland",
-    "abbreviation": "MD",
-    "capital": "Annapolis"
-  },
-  {
-    "state": "Massachusetts",
-    "abbreviation": "MA",
-    "capital": "Boston"
-  },
-  {
-    "state": "Michigan",
-    "abbreviation": "MI",
-    "capital": "Lansing"
-  },
-  {
-    "state": "Minnesota",
-    "abbreviation": "MN",
-    "capital": "Saint Paul"
-  },
-  {
-    "state": "Mississippi",
-    "abbreviation": "MS",
-    "capital": "Jackson"
-  },
-  {
-    "state": "Missouri",
-    "abbreviation": "MO",
-    "capital": "Jefferson City"
-  },
-  {
-    "state": "Montana",
-    "abbreviation": "MT",
-    "capital": "Helena"
-  },
-  {
-    "state": "Nebraska",
-    "abbreviation": "NE",
-    "capital": "Lincoln"
-  },
-  {
-    "state": "Nevada",
-    "abbreviation": "NV",
-    "capital": "Carson City"
-  },
-  {
-    "state": "New Hampshire",
-    "abbreviation": "NH",
-    "capital": "Concord"
-  },
-  {
-    "state": "New Jersey",
-    "abbreviation": "NJ",
-    "capital": "Trenton"
-  },
-  {
-    "state": "New Mexico",
-    "abbreviation": "NM",
-    "capital": "Santa Fe"
-  },
-  {
-    "state": "New York",
-    "abbreviation": "NY",
-    "capital": "Albany"
-  },
-  {
-    "state": "North Carolina",
-    "abbreviation": "NC",
-    "capital": "Raleigh"
-  },
-  {
-    "state": "North Dakota",
-    "abbreviation": "ND",
-    "capital": "Bismarck"
-  },
-  {
-    "state": "Northern Mariana Islands",
-    "abbreviation": "MP",
-    "capital": "Saipan"
-  },
-  {
-    "state": "Ohio",
-    "abbreviation": "OH",
-    "capital": "Columbus"
-  },
-  {
-    "state": "Oklahoma",
-    "abbreviation": "OK",
-    "capital": "Oklahoma City"
-  },
-  {
-    "state": "Oregon",
-    "abbreviation": "OR",
-    "capital": "Salem"
-  },
-  {
-    "state": "Palau",
-    "abbreviation": "PW",
-    "capital": "Ngerulmud"
-  },
-  {
-    "state": "Pennsylvania",
-    "abbreviation": "PA",
-    "capital": "Harrisburg"
-  },
-  {
-    "state": "Puerto Rico",
-    "abbreviation": "PR",
-    "capital": "San Juan"
-  },
-  {
-    "state": "Rhode Island",
-    "abbreviation": "RI",
-    "capital": "Providence"
-  },
-  {
-    "state": "South Carolina",
-    "abbreviation": "SC",
-    "capital": "Columbia"
-  },
-  {
-    "state": "South Dakota",
-    "abbreviation": "SD",
-    "capital": "Pierre"
-  },
-  {
-    "state": "Tennessee",
-    "abbreviation": "TN",
-    "capital": "Nashville"
-  },
-  {
-    "state": "Texas",
-    "abbreviation": "TX",
-    "capital": "Austin"
-  },
-  {
-    "state": "Utah",
-    "abbreviation": "UT",
-    "capital": "Salt Lake City"
-  },
-  {
-    "state": "Vermont",
-    "abbreviation": "VT",
-    "capital": "Montpelier"
-  },
-  {
-    "state": "Virgin Islands",
-    "abbreviation": "VI",
-    "capital": "Charlotte Amalie"
-  },
-  {
-    "state": "Virginia",
-    "abbreviation": "VA",
-    "capital": "Richmond"
-  },
-  {
-    "state": "Washington",
-    "abbreviation": "WA",
-    "capital": "Olympia"
-  },
-  {
-    "state": "West Virginia",
-    "abbreviation": "WV",
-    "capital": "Charleston"
-  },
-  {
-    "state": "Wisconsin",
-    "abbreviation": "WI",
-    "capital": "Madison"
-  },
-  {
-    "state": "Wyoming",
-    "abbreviation": "WY",
-    "capital": "Cheyenne"
-  }
-]
+{
+    "name": "USA State Capitals",
+    "description": "Name the capital city of states in the USA",
+    "difficulty": 3,
+    "questions":[
+        {
+            "state": "Alabama",
+            "abbreviation": "AL",
+            "capital": "Montgomery",
+            "question": "What is the capital of Alabama?",
+            "options": ["Huntsville", "Birmingham", "Montgomery","Mobile"],
+            "answer": "Montgomery"
+        },
+        {
+            "state": "Alaska",
+            "abbreviation": "AK",
+            "capital": "Juneau",
+            "question": "What is the capital of Alaska?",
+            "options": ["Anchorage", "Juneau", "Gaylene","Fairbanks"],
+            "answer": "Juneau"
+        },
+        {
+            "state": "American Samoa",
+            "abbreviation": "AS",
+            "capital": "Pago Pago",
+            "question": "What is the capital of American Samoa?",
+            "options": ["Leone", "St. Paul", "Tāfuna","Pago Pago"],
+            "answer": "Pago Pago"
+        },
+        {
+            "state": "Arizona",
+            "abbreviation": "AZ",
+            "capital": "Phoenix",
+            "question": "What is the capital of Arizona?",
+            "options": ["Phoenix", "Tucson", "Mesa","Chandler"],
+            "answer": "Phoenix"
+        },
+        {
+            "state": "Arkansas",
+            "abbreviation": "AR",
+            "capital": "Little Rock",
+            "question": "What is the capital of Arkansas?",
+            "options": ["Fayetteville", "Little Rock", "Hot Springs","Fort Smith"],
+            "answer": "Little Rock"
+        },
+        {
+            "state": "California",
+            "abbreviation": "CA",
+            "capital": "Sacramento",
+            "question": "What is the capital of California?",
+            "options": ["Sacramento", "Los Angeles", "San Diego","San Jose"],
+            "answer": "Sacramento"
+        },
+        {
+            "state": "Colorado",
+            "abbreviation": "CO",
+            "capital": "Denver",
+            "question": "What is the capital of Colorado?",
+            "options": ["Denver", "Colorado Springs", "Aurora", "Boulder"],
+            "answer": "Denver"
+        },
+        {
+            "state": "Connecticut",
+            "abbreviation": "CT",
+            "capital": "Hartford",
+            "question": "What is the capital of Connecticut?",
+            "options": ["Hartford", "Bridgeport", "Stamford", "New Haven"],
+            "answer": "Hartford"
+        },
+        {
+            "state": "Delaware",
+            "abbreviation": "DE",
+            "capital": "Dover",
+            "question": "What is the capital of Delaware?",
+            "options": ["Dover", "Wilmington", "Newark", "Pike Creek"],
+            "answer": "Dover"
+        },
+        {
+            "state": "District of Columbia",
+            "abbreviation": "DC",
+            "capital": "",
+            "question": "What is the capital of District of Columbia?",
+            "options": ["District of Columbia", "Washington", "Shaw", "Adams Morgan"],
+            "answer": ""
+        },
+        {
+            "state": "Federated States of Micronesia",
+            "abbreviation": "FM",
+            "capital": "Palikir",
+            "question": "What is the capital of Federated States of Micronesia?",
+            "options": ["Palikir", "Tofol", "Kolonia", "Weno"],
+            "answer": "Palikir"
+        },
+        {
+            "state": "Florida",
+            "abbreviation": "FL",
+            "capital": "Tallahassee",
+            "question": "What is the capital of Florida?",
+            "options": ["Tallahassee", "Jacksonville", "Miami", "Tampa"],
+            "answer": "Tallahassee"
+        },
+        {
+            "state": "Georgia",
+            "abbreviation": "GA",
+            "capital": "Atlanta",
+            "question": "What is the capital of Georgia?",
+            "options": ["Atlanta", "Augusta", "Columbus", "Athens"],
+            "answer": "Atlanta"
+        },
+        {
+            "state": "Guam",
+            "abbreviation": "GU",
+            "capital": "Hagåtña",
+            "question": "What is the capital of Guam?",
+            "options": ["Hagåtña", "Tamuning", "Mangilao", "Barrigada"],
+            "answer": "Hagåtña"
+        },
+        {
+            "state": "Hawaii",
+            "abbreviation": "HI",
+            "capital": "Honolulu",
+            "question": "What is the capital of Hawaii?",
+            "options": ["Honolulu", "Hilo", "Waipahu", "Kailua"],
+            "answer": "Honolulu"
+        },
+        {
+            "state": "Idaho",
+            "abbreviation": "ID",
+            "capital": "Boise",
+            "question": "What is the capital of Idaho?",
+            "options": ["Boise", "Meridian", "Nampa", "Caldwell"],
+            "answer": "Boise"
+        },
+        {
+            "state": "Illinois",
+            "abbreviation": "IL",
+            "capital": "Springfield",
+            "question": "What is the capital of Illinois?",
+            "options": ["Springfield", "Chicago", "Aurora", "Joliet"],
+            "answer": "Springfield"
+        },
+        {
+            "state": "Indiana",
+            "abbreviation": "IN",
+            "capital": "Indianapolis",
+            "question": "What is the capital of Indiana?",
+            "options": ["Indianapolis", "Fort Wayne", "Evansville", "Carmel"],
+            "answer": "Indianapolis"
+        },
+        {
+            "state": "Iowa",
+            "abbreviation": "IA",
+            "capital": "Des Moines",
+            "question": "What is the capital of Iowa?",
+            "options": ["Des Moines", "Cedar Rapids", "Davenport", "Pella"],
+            "answer": "Des Moines"
+        },
+        {
+            "state": "Kansas",
+            "abbreviation": "KS",
+            "capital": "Topeka",
+            "question": "What is the capital of Kansas?",
+            "options": ["Topeka", "Wichita", "Overland Park", "Kansas City"],
+            "answer": "Topeka"
+        },
+        {
+            "state": "Kentucky",
+            "abbreviation": "KY",
+            "capital": "Frankfort",
+            "question": "What is the capital of Kentucky?",
+            "options": ["Frankfort", "Lexington", "Owensboro", "Louisville"],
+            "answer": "Frankfort"
+        },
+        {
+            "state": "Louisiana",
+            "abbreviation": "LA",
+            "capital": "Baton Rouge",
+            "question": "What is the capital of Louisiana?",
+            "options": ["Baton Rouge", "New Orleans", "Shreveport", "Lafayette"],
+            "answer": "Baton Rouge"
+        },
+        {
+            "state": "Maine",
+            "abbreviation": "ME",
+            "capital": "Augusta",
+            "question": "What is the capital of Maine?",
+            "options": ["Augusta", "Portland", "Lewiston", "Bangor"],
+            "answer": "Augusta"
+        },
+        {
+            "state": "Marshall Islands",
+            "abbreviation": "MH",
+            "capital": "Majuro",
+            "question": "What is the capital of Marshall Islands?",
+            "options": ["Majuro", "Ebaye", "Arno", "Jabor"],
+            "answer": "Majuro"
+        },
+        {
+            "state": "Maryland",
+            "abbreviation": "MD",
+            "capital": "Annapolis",
+            "question": "What is the capital of Maryland?",
+            "options": ["Annapolis", "Baltimore", "Columbia", "Germantown"],
+            "answer": "Annapolis"
+        },
+        {
+            "state": "Massachusetts",
+            "abbreviation": "MA",
+            "capital": "Boston",
+            "question": "What is the capital of Massachusetts?",
+            "options": ["Boston", "Worcester", "Springfield", "Lowell"],
+            "answer": "Boston"
+        },
+        {
+            "state": "Michigan",
+            "abbreviation": "MI",
+            "capital": "Lansing",
+            "question": "What is the capital of Michigan?",
+            "options": ["Lansing", "Detroit", "Grand Rapids", "Warren city"],
+            "answer": "Lansing"
+        },
+        {
+            "state": "Minnesota",
+            "abbreviation": "MN",
+            "capital": "Saint Paul",
+            "question": "What is the capital of Minnesota?",
+            "options": ["Saint Paul", "Minneapolis", "Rochester", "Duluth"],
+            "answer": "Saint Paul"
+        },
+        {
+            "state": "Mississippi",
+            "abbreviation": "MS",
+            "capital": "Jackson",
+            "question": "What is the capital of Mississippi?",
+            "options": ["Jackson", "Gulfport", "Southaven", "Biloxi"],
+            "answer": "Jackson"
+        },
+        {
+            "state": "Missouri",
+            "abbreviation": "MO",
+            "capital": "Jefferson City",
+            "question": "What is the capital of Missouri?",
+            "options": ["Jefferson City", "Kansas City", "St. Louis", "Springfield"],
+            "answer": "Jefferson City"
+        },
+        {
+            "state": "Montana",
+            "abbreviation": "MT",
+            "capital": "Helena",
+            "question": "What is the capital of Montana?",
+            "options": ["Helena", "Billings", "Missoula", "Great Falls"],
+            "answer": "Helena"
+        },
+        {
+            "state": "Nebraska",
+            "abbreviation": "NE",
+            "capital": "Lincoln",
+            "question": "What is the capital of Nebraska?",
+            "options": ["Lincoln", "Omaha", "Bellevue", "Grand Island"],
+            "answer": "Lincoln"
+        },
+        {
+            "state": "Nevada",
+            "abbreviation": "NV",
+            "capital": "Carson City",
+            "question": "What is the capital of Nevada?",
+            "options": ["Carson City", "Las Vegas", "Henderson", "Reno"],
+            "answer": "Carson City"
+        },
+        {
+            "state": "New Hampshire",
+            "abbreviation": "NH",
+            "capital": "Concord",
+            "question": "What is the capital of New Hampshire?",
+            "options": ["Concord", "Manchester", "Nashua", "Derry"],
+            "answer": "Concord"
+        },
+        {
+            "state": "New Jersey",
+            "abbreviation": "NJ",
+            "capital": "Trenton",
+            "question": "What is the capital of New New Jersey?",
+            "options": ["Trenton", "Newark", "Jersey City", "Paterson"],
+            "answer": "Trenton"
+        },
+        {
+            "state": "New Mexico",
+            "abbreviation": "NM",
+            "capital": "Santa Fe",
+            "question": "What is the capital of New Mexico?",
+            "options": ["Santa Fe", "Albuquerque", "Las Cruces", "Rio Rancho"],
+            "answer": "Santa Fe"
+        },
+        {
+            "state": "New York",
+            "abbreviation": "NY",
+            "capital": "Albany",
+            "question": "What is the capital of New York?",
+            "options": ["Albany", "New York city", "Hempstead town", "Brookhaven"],
+            "answer": "Albany"
+        },
+        {
+            "state": "North Carolina",
+            "abbreviation": "NC",
+            "capital": "Raleigh",
+            "question": "What is the capital of North Carolina?",
+            "options": ["Raleigh", "Charlotte", "Greensboro", "Durham"],
+            "answer": "Raleigh"
+        },
+        {
+            "state": "North Dakota",
+            "abbreviation": "ND",
+            "capital": "Bismarck",
+            "question": "What is the capital of North Dakota?",
+            "options": ["Bismarck", "Fargo", "Grand Forks", "Minot"],
+            "answer": "Bismarck"
+        },
+        {
+            "state": "Northern Mariana Islands",
+            "abbreviation": "MP",
+            "capital": "Saipan",
+            "question": "What is the capital of Northern Mariana Islands?",
+            "options": ["Saipan", "San Jose", "Pagan Village", "Agrihan Village"],
+            "answer": "Saipan"
+        },
+        {
+            "state": "Ohio",
+            "abbreviation": "OH",
+            "capital": "Columbus",
+            "question": "What is the capital of Ohio?",
+            "options": ["Columbus", "Cleveland", "Cincinnati", "Toledo"],
+            "answer": "Columbus"
+        },
+        {
+            "state": "Oklahoma",
+            "abbreviation": "OK",
+            "capital": "Oklahoma City",
+            "question": "What is the capital of Oklahoma?",
+            "options": ["Oklahoma City", "Tulsa", "Norman", "Edmond"],
+            "answer": "Oklahoma City"
+        },
+        {
+            "state": "Oregon",
+            "abbreviation": "OR",
+            "capital": "Salem",
+            "question": "What is the capital of Oregon?",
+            "options": ["Salem", "Portland", "Eugene", "Gresham"],
+            "answer": "Salem"
+        },
+        {
+            "state": "Palau",
+            "abbreviation": "PW",
+            "capital": "Ngerulmud",
+            "question": "What is the capital of Palau?",
+            "options": ["Ngerulmud", "Koror", "Kloulklubed", "Ulimang"],
+            "answer": "Ngerulmud"
+        },
+        {
+            "state": "Pennsylvania",
+            "abbreviation": "PA",
+            "capital": "Harrisburg",
+            "question": "What is the capital of Pennsylvania?",
+            "options": ["Harrisburg", "Philadelphia", "Pittsburgh", "Allentown"],
+            "answer": "Harrisburg"
+        },
+        {
+            "state": "Puerto Rico",
+            "abbreviation": "PR",
+            "capital": "San Juan",
+            "question": "What is the capital of Puerto Rico?",
+            "options": ["San Juan", "Bayamón", "Carolina", "Ponce"],
+            "answer": "San Juan"
+        },
+        {
+            "state": "Rhode Island",
+            "abbreviation": "RI",
+            "capital": "Providence",
+            "question": "What is the capital of Rhode Island?",
+            "options": ["Providence", "Warwick", "Cranston", "Pawtucket"],
+            "answer": "Providence"
+        },
+        {
+            "state": "South Carolina",
+            "abbreviation": "SC",
+            "capital": "Columbia",
+            "question": "What is the capital of South Carolina?",
+            "options": ["Columbia", "Charleston", "North Charleston", "Rock Hill"],
+            "answer": "Columbia"
+        },
+        {
+            "state": "South Dakota",
+            "abbreviation": "SD",
+            "capital": "Pierre",
+            "question": "What is the capital of South Dakota?",
+            "options": ["Pierre", "Sioux Falls", "Rapid City", "Aberdeen"],
+            "answer": "Pierre"
+        },
+        {
+            "state": "Tennessee",
+            "abbreviation": "TN",
+            "capital": "Nashville",
+            "question": "What is the capital of Tennessee?",
+            "options": ["Nashville", "Memphis", "Knoxville", "ChattaNooga"],
+            "answer": "Nashville"
+        },
+        {
+            "state": "Texas",
+            "abbreviation": "TX",
+            "capital": "Austin",
+            "question": "What is the capital of Texas?",
+            "options": ["Austin", "Houston", "San Antonio", "Dallas"],
+            "answer": "Austin"
+        },
+        {
+            "state": "Utah",
+            "abbreviation": "UT",
+            "capital": "Salt Lake City",
+            "question": "What is the capital of Utah?",
+            "options": ["Salt Lake City", "West Valley City", "West Jordan", "Provo"],
+            "answer": "Salt Lake City"
+        },
+        {
+            "state": "Vermont",
+            "abbreviation": "VT",
+            "capital": "Montpelier",
+            "question": "What is the capital of Vermont?",
+            "options": ["Montpelier", "Burlington", "Essex", "Ruthland"],
+            "answer": "Montpelier"
+        },
+        {
+            "state": "Virgin Islands",
+            "abbreviation": "VI",
+            "capital": "Charlotte Amalie",
+            "question": "What is the capital of Virgin Islands?",
+            "options": ["Charlotte Amalie", "St Croix", "Cruz Bay", "Christiansted"],
+            "answer": "Charlotte Amalie"
+        },
+        {
+            "state": "Virginia",
+            "abbreviation": "VA",
+            "capital": "Richmond",
+            "question": "What is the capital of Virginia?",
+            "options": ["Richmond", "Virginia Beach", "Chesapeake", "Norfolk"],
+            "answer": "Richmond"
+        },
+        {
+            "state": "Washington",
+            "abbreviation": "WA",
+            "capital": "Olympia",
+            "question": "What is the capital of Washington?",
+            "options": ["Olympia", "Seattle", "Spokane", "Tacoma"],
+            "answer": "Olympia"
+        },
+        {
+            "state": "West Virginia",
+            "abbreviation": "WV",
+            "capital": "Charleston",
+            "question": "What is the capital of West Virginia?",
+            "options": ["Charleston", "Huntington", "Parkersburg", "Wheeling"],
+            "answer": "Charleston"
+        },
+        {
+            "state": "Wisconsin",
+            "abbreviation": "WI",
+            "capital": "Madison",
+            "question": "What is the capital of Ohio?",
+            "options": ["Madison", "Milwaukee", "Madison", "Green Bay"],
+            "answer": "Madison"
+        },
+        {
+            "state": "Wyoming",
+            "abbreviation": "WY",
+            "capital": "Cheyenne",
+            "question": "What is the capital of Wyoming?",
+            "options": ["Cheyenne", "Casper", "Gillette", "Laramie"],
+            "answer": "Cheyenne"
+        }
+    ]
+    
+}
