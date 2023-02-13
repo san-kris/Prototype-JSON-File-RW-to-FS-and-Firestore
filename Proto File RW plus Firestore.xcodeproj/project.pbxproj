@@ -11,6 +11,7 @@
 		AA7514C52992F001000971BB /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = AA7514C42992F001000971BB /* GoogleService-Info.plist */; };
 		AA7514EC29984E4C000971BB /* Quiz.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA7514EB29984E4C000971BB /* Quiz.swift */; };
 		AA7514EE299853EF000971BB /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = AA7514ED299853EF000971BB /* .gitignore */; };
+		AA75151729997766000971BB /* Restaurant.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA75151629997766000971BB /* Restaurant.swift */; };
 		AACE580529884F91002A2C5C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AACE580429884F91002A2C5C /* AppDelegate.swift */; };
 		AACE580729884F91002A2C5C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AACE580629884F91002A2C5C /* SceneDelegate.swift */; };
 		AACE580929884F91002A2C5C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AACE580829884F91002A2C5C /* ViewController.swift */; };
@@ -30,6 +31,7 @@
 		AA7514C42992F001000971BB /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		AA7514EB29984E4C000971BB /* Quiz.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quiz.swift; sourceTree = "<group>"; };
 		AA7514ED299853EF000971BB /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		AA75151629997766000971BB /* Restaurant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Restaurant.swift; sourceTree = "<group>"; };
 		AACE580129884F91002A2C5C /* Proto File RW plus Firestore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Proto File RW plus Firestore.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AACE580429884F91002A2C5C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AACE580629884F91002A2C5C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -114,6 +116,7 @@
 				AACE581F2988944C002A2C5C /* Example.swift */,
 				AA7514C22992EF4E000971BB /* LocalCollection.swift */,
 				AA7514EB29984E4C000971BB /* Quiz.swift */,
+				AA75151629997766000971BB /* Restaurant.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -204,6 +207,7 @@
 				AA7514C32992EF4E000971BB /* LocalCollection.swift in Sources */,
 				AA7514EC29984E4C000971BB /* Quiz.swift in Sources */,
 				AACE580529884F91002A2C5C /* AppDelegate.swift in Sources */,
+				AA75151729997766000971BB /* Restaurant.swift in Sources */,
 				AACE581E29887F02002A2C5C /* State.swift in Sources */,
 				AACE580729884F91002A2C5C /* SceneDelegate.swift in Sources */,
 				AACE58202988944C002A2C5C /* Example.swift in Sources */,
@@ -356,7 +360,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Proto File RW plus Firestore/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -383,7 +387,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Proto File RW plus Firestore/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";

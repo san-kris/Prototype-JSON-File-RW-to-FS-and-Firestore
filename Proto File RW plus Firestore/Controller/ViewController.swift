@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import FirebaseFirestore
 
 class ViewController: UIViewController {
 
@@ -24,7 +25,12 @@ class ViewController: UIViewController {
     @IBAction func readButtonPressed(_ sender: UIButton) {
         print("Read btn pressed")
         
-        readJSONFileFromProjectFolder()
+          readFromFirestore()
+        
+        
+//        if let quiz = readJSONFileFromProjectFolder(){
+//            saveDataToCollection(data: quiz)
+//        }
         
     }
     
@@ -34,8 +40,8 @@ class ViewController: UIViewController {
         saveJSONFileToTempFolder()
         
     }
-    //MARK: - Write JSON file into File System
     
+    //MARK: - Write JSON file into File System
     func saveJSONFileToTempFolder() -> Void {
         // Saving dict into a JSON file in Application support Dir
         do {
@@ -50,6 +56,43 @@ class ViewController: UIViewController {
         } catch {
             print(error)
         }
+    }
+    
+    //MARK: - Write Dict to FireStore Collection
+    func saveDataToCollection(data: Quiz) -> Void {
+        var ref: DocumentReference?
+        ref = Firestore.firestore().collection("quiz").addDocument(data: data.dictionary) { error in
+            if let error{
+                print("Failed to save document in collectioon: \(error)")
+            }else{
+                print("received document ID \(ref!.documentID)")
+            }
+            
+        }
+    }
+    
+    //MARK: - Read a collectioon from Firestore
+    
+    func readFromFirestore(){
+        print("Reading data from Firestore")
+        Firestore.firestore().collection("quiz").limit(to: 10).getDocuments(completion: dataHandler(snapshot:error:))
+    }
+    
+    func dataHandler(snapshot: QuerySnapshot?, error: Error?) -> Void{
+        if let error{
+            print("Error getting data from FireStore: \(error)")
+            return
+        }
+        guard let snapshot else {return}
+        var quizs: [Quiz] = []
+        for document in snapshot.documents{
+            print("\(document.documentID) => \(document.data()) \n ***************************** \n")
+            let quiz = Quiz(dictionary: document.data())
+            if let quiz{
+                quizs.append(quiz)
+            }
+        }
+        print("Found \(quizs.count) Quiz")
     }
     
     //MARK: - Read JSON file from File System
@@ -81,7 +124,9 @@ class ViewController: UIViewController {
         }
     }
     
-    func readJSONFileFromProjectFolder(){
+    //MARK: - Read JSON File from Project Filder
+    
+    func readJSONFileFromProjectFolder() -> Quiz?{
         // Reading the contents of a file in Project Folder
         let filePath = Bundle.main.path(forResource: "us-state-capitals", ofType: "json")
         print(filePath!)
@@ -89,26 +134,35 @@ class ViewController: UIViewController {
         
         do{
             // Reading file contents into a string object
-            let fileString = try String(contentsOfFile: filePath!, encoding: String.Encoding.utf8)
+//            let fileString = try String(contentsOfFile: filePath!, encoding: String.Encoding.utf8)
             // print(fileString)
             // converting String into Data object
-            let dataNew = fileString.data(using: .utf8)
-            debugPrint(dataNew!)
+//            let dataNew = fileString.data(using: .utf8)
+//            debugPrint(dataNew!)
             
             // Reading file contents into a Data object
             let data = try Data(contentsOf: URL(filePath: filePath!))
-            debugPrint(data)
+//            debugPrint(data)
             
             // Decode JSON in Data object into decodable custom type
-            
             let decoder = JSONDecoder()
             let quizData = try decoder.decode(Quiz.self, from: data)
-            debugPrint(quizData)
+//            debugPrint(quizData)
+            
+            // checking to see if the same struct can serve as both JSON Codable and Firestore DocumentSerializable
+            // creating a dict object to write document into Firestore
+            let quizDict = quizData.dictionary
+            print(quizDict)
+            
+//            guard let quizQuestions = quizDict["questions"] as? [Question] else {return nil}
+//            print(quizQuestions[0].question)
+            
+            return quizData
             
         } catch {
             print("Error reading file - \(error)")
+            return nil
         }
     }
-    
 }
 
